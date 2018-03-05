@@ -5,6 +5,10 @@ class StaticController < ApplicationController
   def javascript_error
   end
 
+  def math
+    1 / 0
+  end
+
   def undeclared
     asdf
   end

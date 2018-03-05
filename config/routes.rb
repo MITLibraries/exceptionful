@@ -4,5 +4,6 @@ Rails.application.routes.draw do
   get '/unknown', to: 'static#unknown'
   get '/javascript_error', to: 'static#javascript_error'
   get '/undeclared', to: 'static#undeclared'
+  get '/math', to: 'static#math'
   root to: 'static#index'
 end
